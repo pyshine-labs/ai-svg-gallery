@@ -1,0 +1,82 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="auto">
+  <!-- Definitions for reusable parts -->
+  <defs>
+    <style>
+      .tire { fill: none; stroke: #333; stroke-width: 8; }
+      .rim { fill: none; stroke: #AAA; stroke-width: 4; }
+      .spoke { stroke: #CCC; stroke-width: 2; }
+      .frame { fill: none; stroke: #3498DB; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+      .duck-body { fill: #FFD700; stroke: #DAA520; stroke-width: 2; }
+      .duck-beak { fill: #FF8C00; stroke: #DAA520; stroke-width: 1; }
+      .duck-eye { fill: #000; }
+      .duck-wing { fill: #F0E68C; stroke: #DAA520; stroke-width: 1; }
+      .ground-shadow { fill: #000; opacity: 0.2; }
+    </style>
+  </defs>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="250" cy="350" rx="180" ry="10" class="ground-shadow" />
+
+  <!-- Rear Wheel -->
+  <g transform="translate(150, 300)">
+    <circle r="60" class="tire" />
+    <circle r="50" class="rim" />
+    <!-- Spokes -->
+    <line x1="0" y1="-50" x2="0" y2="50" class="spoke" />
+    <line x1="-50" y1="0" x2="50" y2="0" class="spoke" />
+    <line x1="-35" y1="-35" x2="35" y2="35" class="spoke" />
+    <line x1="35" y1="-35" x2="-35" y2="35" class="spoke" />
+  </g>
+
+  <!-- Front Wheel -->
+  <g transform="translate(350, 300)">
+    <circle r="60" class="tire" />
+    <circle r="50" class="rim" />
+    <!-- Spokes -->
+    <line x1="0" y1="-50" x2="0" y2="50" class="spoke" />
+    <line x1="-50" y1="0" x2="50" y2="0" class="spoke" />
+    <line x1="-35" y1="-35" x2="35" y2="35" class="spoke" />
+    <line x1="35" y1="-35" x2="-35" y2="35" class="spoke" />
+  </g>
+
+  <!-- Bike Frame (Back Part) -->
+  <path d="M150 300 L220 300 L200 220 L150 300" class="frame" />
+  
+  <!-- Duck Legs -->
+  <path d="M210 260 L210 300 M230 260 L230 300" stroke="#FF8C00" stroke-width="4" stroke-linecap="round" />
+  <ellipse cx="210" cy="300" rx="10" ry="5" fill="#FF8C00" />
+  <ellipse cx="230" cy="300" rx="10" ry="5" fill="#FF8C00" />
+
+  <!-- Duck Body -->
+  <ellipse cx="220" cy="240" rx="50" ry="35" class="duck-body" />
+
+  <!-- Duck Wing -->
+  <ellipse cx="210" cy="245" rx="20" ry="12" class="duck-wing" />
+
+  <!-- Duck Neck & Head -->
+  <path d="M240 220 Q250 200 260 210" fill="none" stroke="#FFD700" stroke-width="25" stroke-linecap="round" />
+  <circle cx="270" cy="200" r="22" class="duck-body" />
+
+  <!-- Duck Beak -->
+  <path d="M285 195 L310 200 L285 205 Z" class="duck-beak" />
+
+  <!-- Duck Eye -->
+  <circle cx="275" cy="195" r="3" class="duck-eye" />
+  <circle cx="276" cy="194" r="1" fill="#FFF" />
+
+  <!-- Bike Frame (Front Part & Handlebars) -->
+  <path d="M220 300 L200 220 L260 220 L290 180" class="frame" />
+  <path d="M290 180 L280 180 M290 180 L300 180" stroke="#333" stroke-width="6" stroke-linecap="round" />
+  
+  <!-- Seat -->
+  <ellipse cx="190" cy="210" rx="20" ry="8" fill="#333" transform="rotate(-10 190 210)" />
+
+  <!-- Duck Arm/Wing holding handle -->
+  <path d="M230 240 Q260 220 290 180" fill="none" stroke="#FFD700" stroke-width="8" stroke-linecap="round" />
+  
+  <!-- Bandana (Optional detail for fun) -->
+  <path d="M255 185 Q270 175 285 185 L270 200 Z" fill="#E74C3C" />
+  <circle cx="255" cy="185" r="3" fill="#E74C3C" />
+  <circle cx="285" cy="185" r="3" fill="#E74C3C" />
+
+</svg>

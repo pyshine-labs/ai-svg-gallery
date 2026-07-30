@@ -1,0 +1,43 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="100%" height="auto">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#e0f7ff"/>
+
+  <!-- Bicycle -->
+  <!-- Wheels -->
+  <circle cx="70" cy="150" r="20" fill="#fff" stroke="#333" stroke-width="2"/>
+  <circle cx="230" cy="150" r="20" fill="#fff" stroke="#333" stroke-width="2"/>
+  <!-- Spokes -->
+  <line x1="70" y1="130" x2="70" y2="170" stroke="#333" stroke-width="1"/>
+  <line x1="70" y1="150" x2="90" y2="150" stroke="#333" stroke-width="1"/>
+  <line x1="230" y1="130" x2="230" y2="170" stroke="#333" stroke-width="1"/>
+  <line x1="230" y1="150" x2="250" y2="150" stroke="#333" stroke-width="1"/>
+  <!-- Frame -->
+  <path d="M90,130 L120,90 L150,110 L190,110 L210,130" fill="none" stroke="#333" stroke-width="4"/>
+  <!-- Seat -->
+  <ellipse cx="120" cy="85" rx="15" ry="8" fill="#8B4513"/>
+  <!-- Handlebars -->
+  <line x1="190" y1="110" x2="210" y2="90" stroke="#333" stroke-width="4"/>
+  <line x1="210" y1="90" x2="220" y2="100" stroke="#333" stroke-width="4"/>
+  <!-- Pedals -->
+  <circle cx="150" cy="110" r="4" fill="#555"/>
+  <circle cx="190" cy="110" r="4" fill="#555"/>
+  <line x1="150" y1="106" x2="150" y2="114" stroke="#555" stroke-width="2"/>
+  <line x1="190" y1="106" x2="190" y2="114" stroke="#555" stroke-width="2"/>
+
+  <!-- Duck -->
+  <!-- Body -->
+  <ellipse cx="140" cy="100" rx="30" ry="20" fill="#FFD700"/>
+  <!-- Head -->
+  <circle cx="100" cy="90" r="18" fill="#FFD700"/>
+  <!-- Beak -->
+  <polygon points="82,90 66,85 82,80" fill="#FFA500"/>
+  <!-- Eye -->
+  <circle cx="106" cy="85" r="3" fill="#000"/>
+  <!-- Wing -->
+  <path d="M130,100 q10,-20 30,0" fill="none" stroke="#8B8000" stroke-width="4"/>
+  <!-- Tail -->
+  <polygon points="170,105 190,95 190,115" fill="#FFA500"/>
+  <!-- Legs (on pedals) -->
+  <line x1="140" y1="110" x2="150" y2="110" stroke="#8B4513" stroke-width="3"/>
+  <line x1="140" y1="110" x2="130" y2="110" stroke="#8B4513" stroke-width="3"/>
+</svg>
